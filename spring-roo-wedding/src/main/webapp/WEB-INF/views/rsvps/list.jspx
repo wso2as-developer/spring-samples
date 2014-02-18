@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_wedding_domain_Rsvp" items="${rsvps}" z="exlVozf8tVm0QDNvp/wEzTlqDzM=">
+        <table:table data="${rsvps}" id="l_com_wedding_domain_Rsvp" path="/rsvps" z="44EfK93zRwvYe5Vk2waePdnSujo=">
+            <table:column id="c_com_wedding_domain_Rsvp_code" property="code" z="OaVFPJ1sFxJkFvSh3uMOEHY96NM="/>
+            <table:column id="c_com_wedding_domain_Rsvp_email" property="email" z="letDgSnHbfQ49cr+B0NFEjStbMA="/>
+            <table:column id="c_com_wedding_domain_Rsvp_attending" property="attending" z="f+BDy1jU8TmmLDRPSi3iQalH1Q0="/>
+            <table:column id="c_com_wedding_domain_Rsvp_specialRequests" property="specialRequests" z="HTApcYoOiXPThEeSXddumWPrN1c="/>
+            <table:column date="true" dateTimePattern="${rsvp_confirmed_date_format}" id="c_com_wedding_domain_Rsvp_confirmed" property="confirmed" z="Qhvw7Kd/FY27wcWxrDr4BZqnVBw="/>
+        </table:table>
+    </page:list>
+</div>
