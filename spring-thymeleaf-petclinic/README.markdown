@@ -12,16 +12,23 @@ First, you will have to download it. If you have a local installation of git, yo
 do it by simply cloning this repository:
 
 ```
-	git clone https://github.com/thymeleaf/thymeleafexamples-petclinic.git
+	git clone https://github.com/wso2as-developer/spring-samples.git
 ```
 
 If you don't have git installed, you can download a `.zip` by pressing on the 
 *Download zip* button in the upper side of this page.
 
-Once downloaded, the application can be locally started with:
+Once downloaded, the application can be locally build with:
 
 ```
-	mvn tomcat7:run
+	mvn clean package
 ```
 
-Which will start a Tomcat server you can access at: http://localhost:8080/petclinic/
+Once you build the .WAR file deploy into WSO2 AS https://localhost:9443/carbon/
+
+
+NOTE :
+
+Original source code on GitHub - https://github.com/thymeleaf/thymeleafexamples-petclinic
+
+References - https://spring.io/blog/2013/03/21/spring-petclinic-is-on-github
