@@ -30,4 +30,5 @@ Once you build the .WAR file deploy into WSO2 AS https://localhost:9443/carbon/
 NOTE :
 
 Original source code on GitHub - https://github.com/thymeleaf/thymeleafexamples-petclinic
+
 References - https://spring.io/blog/2013/03/21/spring-petclinic-is-on-github
